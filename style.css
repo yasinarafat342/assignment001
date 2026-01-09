@@ -1,6 +1,3 @@
-/* ===============================
-   RESET & BASE
-================================ */
 * {
   margin: 0;
   padding: 0;
@@ -18,45 +15,11 @@ img {
   max-width: 100%;
   display: block;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/*
-   FIGMA SPACING SYSTEM (8px GRID)
- 
-:root {
-  --space-xs: 4px;
-  --space-sm: 8px;
-  --space-md: 16px;
-  --space-lg: 24px;
-  --space-xl: 32px;
-  --space-2xl: 48px;
-  --space-3xl: 64px;
-  --space-4xl: 96px;
-
-  --container: 1200px;
-}*/
-
-/* 
-   CONTAINER
- */
-.container {
-  max-width: var(--container);
-  margin: 0 auto;
-  padding-left: var(--space-lg);
-  padding-right: var(--space-lg);
-}
-
-.center {
-  text-align: center;
-}
-
-/* 
-   NAVBAR
- */
 /* header-section  */
 .header-main {
   max-width: 1150px;
@@ -88,19 +51,15 @@ a {
 .btn:hover {
   transform: scale(1.15);
 }
-/* 
-   HERO / BANNER
- */
+/* BANNER*/
 .banner {
   position: relative;
 }
-
 .cover {
   width: 100%;
   height: 85vh;
   object-fit: cover;
 }
-
 .banner-overlay {
  position: absolute;
   inset: 0;
@@ -113,28 +72,22 @@ a {
   padding: var(--space-4xl) var(--space-lg);
   color: #fff;
 }
-
 .banner-overlay h1 {
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: var(--space-xl);
 }
-
 .banner-overlay p {
   max-width: 640px;
   font-size: 18px;
   margin-bottom: var(--space-2xl);
 }
-
 .banner-buttons {
   display: flex;
   gap: var(--space-md);
   flex-wrap: wrap;
 }
-
-/* 
-   BUTTONS
- */
+/* BUTTONS*/
 .btn {
   padding: 14px 24px;
   border-radius: 10px;
@@ -152,8 +105,6 @@ a {
   color: #fff;
   background: transparent;
 }
-
-/* ✅ ONLY gap between two buttons */
 .btn + .btn {
   margin-left: 16px;
 }
@@ -189,8 +140,6 @@ a {
   color: #627382;
 }
 
-SECOND BRAIN / SOLUTION
-
 /* parent-flex  */
 .parent-flex {
   display: flex;
@@ -225,9 +174,6 @@ SECOND BRAIN / SOLUTION
   padding-top: 80px;
   padding-bottom: 20px;
 }
-/* 
-   EARLY ACCESS
- */
 .parent-flex {
   display: flex;
   justify-content: space-between;
@@ -261,9 +207,7 @@ SECOND BRAIN / SOLUTION
   padding-top: 80px;
   padding-bottom: 20px;
 }
-/* 
-   FOOTER
- */
+/* FOOTER*/
 .footer {
   background: #001931;;
   color: #fff;
@@ -313,17 +257,4 @@ hr {
   text-align: center;
   font-size: 14px;
   color: #aaa;
-}
-/*
-   RESPONSIVE
- */
-@media (max-width: 900px) {
-  .solution-section .container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .banner-overlay h1 {
-    font-size: 36px;
-  }
 }
