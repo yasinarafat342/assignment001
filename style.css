@@ -143,8 +143,8 @@ a {
 }
 
 .btn.primary {
-  background: #fff;
-  color: #000;
+  background:#30B868, rgba(70, 145, 101, 1));
+  color:rgba(255, 255, 255, 1);
 }
 
 .btn.secondary {
@@ -152,9 +152,7 @@ a {
   color: #fff;
 }
 
-/* ===============================
-   NOTES SECTION
-================================ */
+/* NOTES SECTION*/
 .img-soon {
   padding: 20px;
   justify-content: center;
