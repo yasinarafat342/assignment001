@@ -24,9 +24,9 @@ a {
   color: inherit;
 }
 
-/* ===============================
+/*
    FIGMA SPACING SYSTEM (8px GRID)
-================================ */
+ */
 :root {
   --space-xs: 4px;
   --space-sm: 8px;
